@@ -1,13 +1,13 @@
-def add(self,x,y):
+def add(x,y):
     return x + y
 
-def subtract(self,x,y):
+def subtract(x,y):
     return x - y
 
-def divide(self,x,y):
+def divide(x,y):
     return x / y
 
-def mulitply(self,x,y):
+def multiply(self,x,y):
      return x * y
 
 
