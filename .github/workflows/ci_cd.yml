@@ -1,9 +1,6 @@
 name: Python CI/CD
 
-on:
-  push:
-    branches:
-      - develop
+on: push
 
 jobs:
   build_and_test:
