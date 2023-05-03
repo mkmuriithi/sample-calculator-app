@@ -1,16 +1,14 @@
-class Calculator:
+def add(self,x,y):
+    return x + y
 
-    def add(self,x,y):
-        return x + y
+def subtract(self,x,y):
+    return x - y
 
-    def subtract(self,x,y):
-        return x - y
+def divide(self,x,y):
+    return x / y
 
-    def divide(self,x,y):
-        return x / y
-
-    def mulitply(self,x,y):
-        return x * y
+def mulitply(self,x,y):
+     return x * y
 
 
 if __name__ == "__main__":
@@ -21,16 +19,15 @@ if __name__ == "__main__":
     operation = int(input("Enter operation: 1:add, 2: subtract, 3:divide, 4:multiple -> "))
 
 
-    myCalculator = Calculator()
     result = 0
     if(operation == 1):
-        result = myCalculator.add(a,b)
+        result = add(a,b)
     elif(operation == 2):
-        result = myCalculator.subtract(a,b)
+        result = subtract(a,b)
     elif(operation == 3):
-        result = myCalculator.multiply(a,b)
+        result = multiply(a,b)
     elif(operation == 4):
-        result = myCalculator.divide(a,b)
+        result = divide(a,b)
     else:
         print("Please enter a valid value for the operation")
 
